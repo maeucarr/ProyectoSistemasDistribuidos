@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconXmlAndPng">
+        <ignore path="src/main/res/drawable-hdpi/battery.png" />
+        <ignore path="src/main/res/drawable-mdpi/battery.png" />
+        <ignore path="src/main/res/drawable-xhdpi/battery.png" />
+        <ignore path="src/main/res/drawable-xxhdpi/battery.png" />
+    </issue>
+</lint>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="25dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text="Bienvenido"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:maxHeight="70dp"
+        app:srcCompat="@drawable/logotipo_proyecto1" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/borde_redondo"
+        android:ems="10"
+        android:hint="Usuario"
+        android:paddingVertical="5dip"
+        android:paddingHorizontal="20dip"
+        android:inputType="textPersonName"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borde_redondo"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:paddingVertical="5dip"
+        android:paddingHorizontal="20dip"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button_ingreso"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="Ingresar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:background="@drawable/borde_redondo"
+        app:backgroundTint="#FF8A65" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:onClick="iniciarSesion"
+        android:text="Inicio sesion con google"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:backgroundTint="#FF8A65"
+        android:background="@drawable/borde_redondo"/>
+
+    <ImageView
+        android:id="@+id/image_googlelogo"
+        android:layout_width="303dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="55dp"
+        android:gravity="center_horizontal"
+        app:srcCompat="@drawable/googlelogo" />
+
+
+</LinearLayout>

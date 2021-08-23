@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "612095823201",
+    "firebase_url": "https://amst-grupo4-camas-uci.firebaseio.com",
+    "project_id": "amst-grupo4-camas-uci",
+    "storage_bucket": "amst-grupo4-camas-uci.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612095823201:android:fa3584101c08f8bb160920",
+        "android_client_info": {
+          "package_name": "com.example.getabed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612095823201-6jq7p2o9ilo8ap826jaljngq66ahd126.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getabed",
+            "certificate_hash": "f1b0ceb2f7d5d9f9efd1fe580745131016b4b0d5"
+          }
+        },
+        {
+          "client_id": "612095823201-iehpft82hf5j0ref83a5eikl2htik00r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfGcX5cYV-tDyHjik7PWrDeXSNDdhiTvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612095823201-iehpft82hf5j0ref83a5eikl2htik00r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

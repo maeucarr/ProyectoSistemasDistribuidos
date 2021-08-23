@@ -1,0 +1,39 @@
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="120dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/cama"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cama_desocupada">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/idCama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Id: "
+        ></TextView>
+    <TextView
+        android:id="@+id/estadoCama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Estado"
+        android:textStyle="italic"
+        ></TextView>
+    <TextView
+        android:id="@+id/bateriaView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bateria:"
+        android:gravity="center"
+        android:textSize="15dp"
+        ></TextView>
+</LinearLayout>
